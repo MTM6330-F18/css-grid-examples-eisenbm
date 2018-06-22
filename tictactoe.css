@@ -1,0 +1,37 @@
+/* Colour Scheme */
+
+:root {
+  --dark-blue: hsl(212, 27%, 29%);
+  --grey-green: hsl(153, 8%, 93%);
+  --grey-blue: hsl(212, 20%, 97%);
+}
+
+/* Basic reset */
+
+html,
+body {
+  border: none;
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  width: 100vw;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--grey-green);
+  color: var(--dark-blue);
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+/* Your styles here ... */
