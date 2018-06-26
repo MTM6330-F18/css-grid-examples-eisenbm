@@ -35,3 +35,20 @@ body {
 }
 
 /* Your styles here ... */
+.game-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+
+  padding: 25px;
+}
+
+.game-square {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+}
