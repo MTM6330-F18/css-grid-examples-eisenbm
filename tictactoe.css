@@ -38,10 +38,14 @@ body {
 .game-board {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
 
+  width: 50vw;
+  height: 50vw;
+  min-width: 300px;
+  min-height: 300px;
   padding: 25px;
 }
 
